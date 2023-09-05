@@ -1,0 +1,31 @@
+{
+  "name": "happy-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node src/app.ts",
+    "start": "npx ts-node srcc/app.ts",
+    "tsc": "npx tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.5.9",
+    "copy-dir": "^1.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-queue": "^0.0.13",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql-queues": "^1.0.0",
+    "mysql2": "^3.6.0",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "util": "^0.12.5"
+  }
+}
