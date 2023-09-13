@@ -5,7 +5,8 @@ import * as queue from "express-queue";
 import * as os from "os";
 import * as multer from "multer";
 import { mkdirSync,createWriteStream } from "fs";
-import model from "../src/models/index";
+// import model from "./models/index_mariadb";
+import model from "./models/index_postgresql";
 let app, port, rout, que, m, member, timeout, id, email, username, password, fullname, photo;
 
 

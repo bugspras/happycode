@@ -1,4 +1,4 @@
-import database from "../config/database";
+import database from "../config/mariadb";
 import { unlinkSync,existsSync,readdirSync,lstatSync,rmdirSync } from "fs";
 import * as path from "path";
 let results,query,connec,db,m,random,id;
@@ -94,7 +94,6 @@ export default class model {
     } catch (error) {}
   }
 }
-
 
 random = function (length) {
   results = "";
