@@ -1,6 +1,12 @@
 # happycode
-- database (mariadb)
+- database (mariadb / postgres)
 import database db_happycode yang ada didalam folder database, ke database anda
+
+untuk mengubah connection ke database maria :
+![Alt text](mariadb.png)
+
+untuk mengubah connection ke database postgres :
+![Alt text](postgresql.png)
 
 - backend (nodejs expressjs)
 
